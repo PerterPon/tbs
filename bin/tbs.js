@@ -12,7 +12,7 @@ const commander = require( 'commander' );
 const mkdirp = require( 'mkdirp' );
 const fs = require( 'fs' );
 const path = require( 'path' );
-const packageJSON = reuqire( '../package.json' );
+const packageJSON = require( '../package.json' );
 
 commander
     .version( packageJSON.version )
