@@ -12,9 +12,10 @@ const commander = require( 'commander' );
 const mkdirp = require( 'mkdirp' );
 const fs = require( 'fs' );
 const path = require( 'path' );
+const packageJSON = reuqire( '../package.json' );
 
 commander
-    .version( '0.0.1' )
+    .version( packageJSON.version )
     .option( 'init', 'init tbs template' );
 
 commander.parse( process.argv );
