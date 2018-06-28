@@ -1,8 +1,7 @@
 {
     "name": "node-tbs",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "TypeScript bases scaffold",
-    "main": "index.js",
     "engines": {
         "node": ">=8.0.0"
     },
@@ -12,8 +11,13 @@
     ],
     "author": "PerterPon<PerterPon@gmail.com>",
     "license": "MIT",
-    "devDependencies": {
+    "preferGlobal": true,
+    "bin": {
+        "tbs": "bin/tbs.js"
     },
+    "devDependencies": {},
     "dependencies": {
+        "commander": "~2.15.1",
+        "mkdirp": "^0.5.1"
     }
 }
