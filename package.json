@@ -1,0 +1,19 @@
+{
+    "name": "node-tbs",
+    "version": "0.0.1",
+    "description": "TypeScript bases scaffold",
+    "main": "index.js",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "keywords": [
+        "scaffold",
+        "typescript"
+    ],
+    "author": "PerterPon<PerterPon@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+    },
+    "dependencies": {
+    }
+}
