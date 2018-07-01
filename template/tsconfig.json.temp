@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es2017",
         "outDir": "./build",
-        "allowJs": true,
+        "allowJs": false,
         "module": "commonjs",
         "strict": true, /* Enable all strict type-checking options. */
         "noImplicitAny": true, /* Raise error on expressions and declarations with an implied 'any' type. */
@@ -13,9 +13,6 @@
         ],
         "baseUrl": "./"
     },
-    "files": [
-        "./node_modules/moment/moment.d.ts"
-    ],
     "include": [
         "./**/*",
     ],

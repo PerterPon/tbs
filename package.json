@@ -1,6 +1,6 @@
 {
     "name": "node-tbs",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "TypeScript bases scaffold",
     "engines": {
         "node": ">=8.0.0"
